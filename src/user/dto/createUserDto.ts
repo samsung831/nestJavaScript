@@ -13,10 +13,7 @@ export class CreateUserDto {
 /*export class UpdateUserDto extends PartialType(CreateUserDto) {
 }*/
 export class UpdateUserDto {
-    @IsString()
     name: string;
-    @IsString()
     password: string;
-    @IsEmail()
     email: string;
 }
